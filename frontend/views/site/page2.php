@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 /* @var $pageUid string */
 
-use frontend\components\Comment\CommentWidget;
+use frontend\widgets\CommentWidget;
 use yii\helpers\Html;
 
 $this->title = 'Page 2';

@@ -19,7 +19,7 @@ class SiteController extends Controller
                 'class' => 'yii\web\ErrorAction',
             ],
             'comment' => [
-                'class' => 'frontend\components\Comment\CommentAction',
+                'class' => 'frontend\components\CommentAction',
             ]
         ];
     }

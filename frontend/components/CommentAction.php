@@ -1,9 +1,10 @@
 <?php
-namespace frontend\components\Comment;
+namespace frontend\components;
 
 use Yii;
 use yii\base\Action;
 use yii\web\BadRequestHttpException;
+use frontend\models\CommentModel;
 
 class CommentAction extends Action
 {

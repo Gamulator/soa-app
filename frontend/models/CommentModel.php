@@ -1,10 +1,9 @@
 <?php
-namespace frontend\components\Comment;
+namespace frontend\models;
 
 use Yii;
 use yii\base\Model;
 use GuzzleHttp\Client;
-
 
 /**
  * CommentModel model

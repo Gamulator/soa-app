@@ -1,9 +1,10 @@
 <?php
 
-namespace frontend\components\Comment;
+namespace frontend\widgets;
 
 use Yii;
 use yii\base\Widget;
+use frontend\models\CommentModel;
 
 class CommentWidget extends Widget
 {
@@ -24,7 +25,7 @@ class CommentWidget extends Widget
 
     public function run()
     {
-        return $this->render('widget', [
+        return $this->render('@app/views/comment/widget', [
             'comments' => $this->comments,
             'model' => new CommentModel($this->pageUid)
         ]);
